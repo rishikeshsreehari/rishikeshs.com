@@ -1,9 +1,12 @@
 ---
-title: Smol 11ty Starter
+title: Rishikesh Sreehari
 layout: page.njk
 ---
 
 ## {{ meta.siteDescription }}
+
+I'm Rishikesh, a life long learner. Thi s blog is a documentation of everything I'm exploring currently in life. You can read check out my projects or hike throughy digital garden. Know more about me [here](https://rishikeshs.com/about/). 
+
 
 Created by Stephanie Eckles - [@5t3ph](https://twitter.com/5t3ph) - author of [11ty.Rocks](https://11ty.rocks), [ModernCSS.dev](https://moderncss.dev), and [SmolCSS.dev](https://smolcss.dev).
 
