@@ -1,17 +1,12 @@
 ---
-tags: ['popular']
-title: Curator Economy
-
+tags: ['blog']
+title: This is a Test Heading
 teaser: This article looks at the context of the curator economy, why it is important and its present state in the age of information overload.
 ---
-
-date: 2020-01-01 
-
-According to Anamaria Luga, the Founder at Femwealth and Curator in Beyond, " Digital curators are the librarians of the internet".
-
+> **"Digital curators are the librarians of the internet".** <br>  Anamaria Luga, the Founder at Femwealth and Curator in Beyond
   
 
-With the rising quantity of content on the internet thanks to the boom of the creator economy, we are now at the age of information overload. Present-day AI is not yet powerful to wade through the vast information universe and provide content that has a context and an intent. Curators are humans who bridge this gap by curating relevant information from the vastness of information available to us. Over the years, curators have become a vital part of information commerce. The curation economy is booming and a number of businesses have proved it to be a sustainable business. This article looks at the context of the curator economy, why it is important and its present state in the age of information overload.
+<span class='drop-cap'>W</span>ith the rising quantity of content on the internet thanks to the boom of the creator economy, we are now at the age of information overload. Present AI is not yet powerful to wade through the vast information universe and provide content that has a context and an intent. Curators are humans who bridge this gap by curating relevant information from the vastness of information available to us. Over the years, curators have become a vital part of information commerce. The curation economy is booming and a number of businesses have proved it to be a sustainable business. This article looks at the context of the curator economy, why it is important and its present state in the age of information overload.
 
   
 

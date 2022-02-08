@@ -1,0 +1,45 @@
+---
+layout: base.njk
+---
+
+<header>
+  <h1>{{ title }}</h1>
+</header>
+<main>
+  <article>
+    {{ content | safe }}
+  </article>
+<br>
+
+
+
+ <p class='newsletter-text-border'>
+    <em>Enjoyed this article? </em><br>
+    <em>If so, check out my <a href="https://rishikesh.substack.com/" target="_blank" rel="noreferrer noopener"><strong>10+1 Things</strong></a> Newsletter that I sent every Sunday. It contains 11 interesting Things I thought were worth sharing including books,articles, projects, and other things I'm curious about. <a href="https://rishikeshs.com/newsletter/" target="_blank" rel="noreferrer noopener">Click here </a>if you would like to check out the previous issues and may be subscribe! </em>
+</p>
+
+
+
+{% if nextPost.url %}
+    <p class="ctr">
+      <strong>Next</strong>: 
+      <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>&emsp;
+      <strong>Previous</strong>: 
+      <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+    </p>
+  {% endif %}
+
+<h2>Popular Articles</h2>
+<br>
+<span><ul>
+  {%- for post in collections.popular | reverse -%}
+    <li>
+      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+      {% if post.data.teaser %}
+        <p>{{ post.data.teaser }}</p>
+      {% endif %} 
+    </li>
+  {%- endfor -%}
+</ul></span>
+
+</main>

@@ -9,9 +9,7 @@
 </head>
 <body>
   {% include "nav.njk" %}
-
   {{ content | safe }}
-
   <footer>
     <div>
       <p>&copy; {% year %} {{ meta.siteName }}{% if meta.authorName %} • <a href='https://google.com'>Built using 11ty</a>   {% endif %}</p>

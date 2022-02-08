@@ -1,10 +1,9 @@
 ---
-tags: ['popular']
-title: Curator Economy
+tags: ['blog']
+title: test
 
 teaser: This article looks at the context of the curator economy, why it is important and its present state in the age of information overload.
 ---
-
 date: 2020-01-01 
 
 According to Anamaria Luga, the Founder at Femwealth and Curator in Beyond, " Digital curators are the librarians of the internet".

@@ -11,7 +11,7 @@ layout: base.njk
   </article>
 
 <ul>
-  {%- for post in collections.popular | reverse -%}
+  {%- for post in collections.blog | reverse -%}
     <li>
       <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
       {% if post.data.teaser %}
