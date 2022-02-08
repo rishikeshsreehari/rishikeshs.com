@@ -1,6 +1,6 @@
 ---
 title: Rishikesh Sreehari
-layout: page.njk
+layout: homepage.njk
 ---
 
 ## {{ meta.siteDescription }}

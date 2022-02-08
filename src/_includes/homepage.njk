@@ -1,0 +1,26 @@
+---
+layout: base.njk
+---
+
+<header>
+  <h1>{{ title }}</h1>
+</header>
+<main>
+  <article>
+    {{ content | safe }}
+  </article>
+
+<ul>
+  {%- for post in collections.popular | reverse -%}
+    <li>
+      <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+      {% if post.data.teaser %}
+        <p>{{ post.data.teaser }}</p>
+      {% endif %} 
+    </li>
+  {%- endfor -%}
+</ul>
+
+
+
+</main>
