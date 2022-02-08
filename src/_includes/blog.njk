@@ -19,15 +19,20 @@ layout: base.njk
 </p>
 
 
-
+<p>
 {% if nextPost.url %}
-    <p class="ctr">
-      <strong>Next</strong>: 
-      <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>&emsp;
-      <strong>Previous</strong>: 
-      <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
-    </p>
+    
+      <strong>Read Next</strong>: 
+      <a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>&emsp;&emsp;
+    
   {% endif %}
+
+  {% if prevPost.url %}
+         <strong>Read Previous</strong>: 
+         <a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+      {% endif %}
+</p>
+
 
 <h2>Popular Articles</h2>
 <br>
