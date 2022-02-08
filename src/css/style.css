@@ -122,3 +122,25 @@ blockquote {
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 0 0.25rem 0.25rem 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+/*  Junk   */
+
+
+body#book figure img,body#booklist figure img{
+	float:left;
+	margin-right:2em
+}
+body#booklist div.abook{
+	margin:0 0 8em 0
+}
+
