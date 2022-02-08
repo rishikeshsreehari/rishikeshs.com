@@ -10,7 +10,9 @@ layout: base.njk
     {{ content | safe }}
   </article>
 
-<ul>
+<h2>Popular Articles</h2>
+<br>
+<span><ul>
   {%- for post in collections.popular | reverse -%}
     <li>
       <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
@@ -19,7 +21,7 @@ layout: base.njk
       {% endif %} 
     </li>
   {%- endfor -%}
-</ul>
+</ul></span>
 
 
 
