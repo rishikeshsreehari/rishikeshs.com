@@ -1,6 +1,5 @@
 ---
-#layout: bookshelf.njk
-title: Bookshelf
+title: Library
 ---
 All the books that I have recently read are listed here.<br>
 <i>Last updated Jan 2022.</i>
